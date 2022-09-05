@@ -18,7 +18,7 @@
 
           <div class="wrapper">
 
-            <img src="/assets/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
+            <img src="assets/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
 
             <ul class="footer-brand-list">
 
