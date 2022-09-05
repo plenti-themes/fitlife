@@ -5,11 +5,15 @@
   export let content, layout, allContent, allLayouts;
   let y;
 </script>
+
 <svelte:window bind:scrollY={y}/>
+
 <html lang="en">
 <Head title={content.filename} />
 <body>
-  <div class="data-back-top-btn {y > 100 ? ' active' : ''}">
+  <a href="#top" class="back-top-btn{y > 100 ? ' active' : ''}" aria-label="back to top" data-back-top-btn="">
+    <ion-icon name="caret-up-sharp" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
+  </a>
   <header class="header{y > 100 ? ' active' : ''}" data-header="">
     <div class="container">
         <Nav />
