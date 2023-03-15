@@ -1,0 +1,78 @@
+{
+    "name": "classes",
+    "fields": {
+        "title": "Fitness Classes For Every Goal",
+        "subtitle": "Our Classes",
+        "background": "media/classes-bg.png",
+        "items": [
+            {   
+                "name": "Weight Lifting",
+                "url": ".",
+                "body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+                "image": {
+                    "url": "media/class-1.jpg",
+                    "alt": "Weight Lifting"
+                },
+                "icon": {
+                    "url": "media/class-icon-1.png",
+                    "alt": "Weight Lifting"
+                },
+                "bars": {
+                    "label": "Class Full",
+                    "percent": 85
+                }
+            },
+            {   
+                "name": "Cardio & Strength",
+                "url": ".",
+                "body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+                "image": {
+                    "url": "media/class-2.jpg",
+                    "alt": "Cardio & Strength"
+                },
+                "icon": {
+                    "url": "media/class-icon-2.png",
+                    "alt": "Cardio & Strength"
+                },
+                "bars": {
+                    "label": "Class Full",
+                    "percent": 70
+                }
+            },
+            {   
+                "name": "Power Yoga",
+                "url": ".",
+                "body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+                "image": {
+                    "url": "media/class-3.jpg",
+                    "alt": "Power Yoga"
+                },
+                "icon": {
+                    "url": "media/class-icon-3.png",
+                    "alt": "Power Yoga"
+                },
+                "bars": {
+                    "label": "Class Full",
+                    "percent": 90
+                }
+            },
+            {   
+                "name": "The Fitness Pack",
+                "url": ".",
+                "body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+                "image": {
+                    "url": "media/class-4.jpg",
+                    "alt": "The Fitness Pack"
+                },
+                "icon": {
+                    "url": "media/class-icon-4.png",
+                    "alt": "The Fitness Pack"
+                },
+                "bars": {
+                    "label": "Class Full",
+                    "percent": 60
+                }
+            }
+        ]
+    }
+}

@@ -83,17 +83,12 @@
 				"video": {
 					"url": "https://www.youtube.com/watch?v=EKUNGQ4LmH8"
 				},
-				"button": {
-					"title": "Play",
-					"icon1": "play-btn",
-					"icon2": "play-sharp"
-				},
 				"image": {
 					"url": "media/video-banner.jpg",
 					"alt": "Man lifting weights"
 				},
 				"link": {
-					"title": "WATCH MORE",
+					"title": "Watch More",
 					"url": "."
 				}
 				

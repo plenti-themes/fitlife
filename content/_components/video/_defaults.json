@@ -1,0 +1,18 @@
+{
+    "name": "video",
+    "fields": {
+        "title": "Explore Fitness Life",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=EKUNGQ4LmH8"
+        },
+        "image": {
+            "url": "media/video-banner.jpg",
+            "alt": "Man lifting weights"
+        },
+        "link": {
+            "title": "Watch More",
+            "url": "."
+        }
+        
+    }
+}

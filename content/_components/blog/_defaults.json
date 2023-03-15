@@ -1,0 +1,51 @@
+{
+    "name": "blog",
+    "fields": {
+        "title": "Latest Blog Feed",
+        "subtitle": "Our News",
+        "items": [
+            {
+                "title": "Going to the gym for the first time",
+                "body": "Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.",
+                "url": ".",
+                "image": {
+                    "url": "media/blog-1.jpg",
+                    "alt": "Going to the gym for the first time"
+                },
+                "date": "July 3, 2023",
+                "link": {
+                    "title": "Read More",
+                    "url": "."
+                }
+            },
+            {
+                "title": "Parturient accumsan cacus pulvinar magna",
+                "body": "Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.",
+                "url": ".",
+                "image": {
+                    "url": "media/blog-2.jpg",
+                    "alt": "Going to the gym for the first time"
+                },
+                "date": "July 5, 2023",
+                "link": {
+                    "title": "Read More",
+                    "url": "."
+                }
+            },
+            {
+                "title": "Risus purus namien parturient accumsan cacus",
+                "body": "Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.",
+                "url": ".",
+                "image": {
+                    "url": "media/blog-3.jpg",
+                    "alt": "Going to the gym for the first time"
+                },
+                "date": "July 7, 2023",
+                "link": {
+                    "title": "Read More",
+                    "url": "."
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "name": "hero",
+    "fields": {
+        "subtitleA": "The Best",
+        "subtitleB": "Fitness Club",
+        "title": "Work hard for a better life",
+        "body": "Duis mollis felis quis libero dictum vehicula. Duis dictum lorem mi, a faucibus nisi eleifend eu.",
+        "link": {
+            "title": "GET STARTED",
+            "url": "."
+        },
+        "background": "media/hero-bg.png",
+        "images": {
+            "banner": {
+                "url": "media/hero-banner.png",
+                "alt": "Man lifting weights"
+            },
+            "circle1": {
+                "url": "media/hero-circle-one.png",
+                "alt": "circles 1"
+            },
+            "circle2": {
+                "url": "media/hero-circle-two.png",
+                "alt": "circles 2"
+            },
+            "heartrate": {
+                "url": "media/heart-rate.svg",
+                "alt": "heart rate"
+            },
+            "calories": {
+                "url": "media/calories.svg",
+                "alt": "calories"
+            }
+        }
+    }
+}
