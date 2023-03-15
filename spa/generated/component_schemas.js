@@ -1,1 +1,1 @@
-const allComponentSchemas={};export default allComponentSchemas
+const allComponentSchemas={about:{name:{type:"text",options:["disabled"]},"fields.body":{type:"wysiwyg",options:["bold","italic","bullets","numbers","link","unlink","heading2","heading3","clear"]}},blog:{name:{type:"text",options:["disabled"]}},classes:{name:{type:"text",options:["disabled"]}},hero:{name:{type:"text",options:["disabled"]}},video:{name:{type:"text",options:["disabled"]}}};export default allComponentSchemas

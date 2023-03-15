@@ -102,6 +102,10 @@ html, body {
   padding: 0;
 }
 
+.sidenav-wrapper ~ main {
+  overflow: hidden;
+}
+
 li { list-style: none; }
 
 a {
