@@ -24,7 +24,7 @@
         <ul class="navbar-list">
 
           <li>
-            <a on:click|preventDefault={e => scroll(e)} href="#home" class="navbar-link active" data-nav-link="">Home</a>
+            <a on:click|preventDefault={e => scroll(e)} href="#home" class="navbar-link" data-nav-link="">Home</a>
           </li>
 
           <li>

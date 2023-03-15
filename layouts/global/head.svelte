@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
-  <title>{ title }</title>
+  <title>{ title } | Fitlife</title>
 
   <script type="module" src="spa/core/main.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

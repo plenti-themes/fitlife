@@ -9,20 +9,20 @@
 <svelte:window bind:scrollY={y}/>
 
 <html lang="en">
-<Head title={content.filename} />
-<body>
-  <a href="#top" class="back-top-btn{y > 100 ? ' active' : ''}" aria-label="back to top" data-back-top-btn="">
-    <ion-icon name="caret-up-sharp" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
-  </a>
-  <header class="header{y > 100 ? ' active' : ''}" data-header="">
-    <div class="container">
-        <Nav />
-    </div>
-  </header>
-  <svelte:component this={layout} {...content.fields} {allContent} {allLayouts} {content}/>
-  <Footer />
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
-  </a>
-</body>
+  <Head title={content.fields?.meta?.title} />
+  <body>
+    <a href="#top" class="back-top-btn{y > 100 ? ' active' : ''}" aria-label="back to top" data-back-top-btn="">
+      <ion-icon name="caret-up-sharp" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
+    </a>
+    <header class="header{y > 100 ? ' active' : ''}" data-header="">
+      <div class="container">
+          <Nav />
+      </div>
+    </header>
+    <svelte:component this={layout} {...content.fields} {allContent} {allLayouts} {content}/>
+    <Footer />
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+      <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+    </a>
+  </body>
 </html>
