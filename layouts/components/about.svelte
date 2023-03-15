@@ -27,7 +27,13 @@
         <div class="about-coach">
 
           <figure class="coach-avatar">
-            <img src="{images.coach.url}" width="65" height="65" loading="lazy" alt="{images.coach.alt}">
+            <img 
+              src="{coach.image.src}"
+              width="65"
+              height="65"
+              loading="lazy"
+              alt="{coach.image.alt}"
+            >
           </figure>
 
           <div>
@@ -95,6 +101,7 @@
     margin: 0;
     overflow: hidden;
     border-radius: 50%;
+    min-width: 65px;
   }
 
   .about .coach-name {

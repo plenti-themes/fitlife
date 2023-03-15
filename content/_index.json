@@ -45,8 +45,12 @@
 				"subtitle": "About Us",
 				"body": "<p>Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat. Pellentesque porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.</p><p>Integer placerat vitae metus posuere tincidunt. Nullam suscipit ante ac aliquet viverra vestibulum ante ipsum primis.</p>",
 				"coach": {
-				"name": "Denis Robinson",
-				"title": "Our Coach"
+					"name": "Denis Robinson",
+					"title": "Our Coach",
+					"image": {
+						"src": "media/about-coach.jpg",
+						"alt": "Denis profile"
+					}
 				},
 				"link": {
 					"title": "Explore More",
@@ -56,10 +60,6 @@
 					"banner": {
 					"url": "media/about-banner.png",
 					"alt": "Women exercising"
-					},
-					"coach": {
-					"url": "media/about-coach.jpg",
-					"alt": "Trainer"
 					},
 					"circle1": {
 					"url": "media/about-circle-one.png",

@@ -1,0 +1,38 @@
+{
+    "name": "about",
+    "fields": {
+        "title": "Welcome To Our Fitness Gym",
+        "subtitle": "About Us",
+        "body": "<p>Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat. Pellentesque porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.</p><p>Integer placerat vitae metus posuere tincidunt. Nullam suscipit ante ac aliquet viverra vestibulum ante ipsum primis.</p>",
+        "coach": {
+            "name": "Denis Robinson",
+            "title": "Our Coach",
+            "image": {
+                "src": "media/about-coach.jpg",
+                "alt": "Denis profile"
+            }
+        },
+        "link": {
+            "title": "Explore More",
+            "url": "."
+        },
+        "images": {
+            "banner": {
+            "url": "media/about-banner.png",
+            "alt": "Women exercising"
+            },
+            "circle1": {
+            "url": "media/about-circle-one.png",
+            "alt": "circles 1"
+            },
+            "circle2": {
+            "url": "media/about-circle-two.png",
+            "alt": "circles 2"
+            },
+            "fitness": {
+            "url": "media/fitness.png",
+            "alt": "fitness"
+            }
+        }
+    } 
+}
