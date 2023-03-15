@@ -60,11 +60,14 @@
     background-color: var(--white);
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     padding-block: 10px;
     box-shadow: var(--shadow-1);
     z-index: 4;
+  }
+
+  :global(main) .header {
+    top: 40px;
   }
 
   .header > .container {

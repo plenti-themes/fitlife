@@ -2,7 +2,7 @@
     export let title, subtitleA, subtitleB, body, link, images, background;
 </script>
 
-<section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section="" style="background-image: url('assets{background.url}')">
+<section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section="" style="background-image: url('{background}')">
   <div class="container">
 
     <div class="hero-content">

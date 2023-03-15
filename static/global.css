@@ -94,9 +94,12 @@
 *,
 *::before,
 *::after {
+  box-sizing: border-box;
+}
+
+html, body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 li { list-style: none; }
@@ -106,13 +109,13 @@ a {
   color: inherit;
 }
 
-a,
-img,
-span,
-input,
-button,
-strong,
-ion-icon { display: block; }
+main a,
+main img,
+main span,
+main input,
+main button,
+main strong,
+main ion-icon { display: block; }
 
 img { height: auto; }
 
@@ -141,6 +144,8 @@ body {
   background-color: var(--white);
   color: var(--sonic-silver);
   font-size: 1.6rem;
+}
+body main {
   line-height: 1.6;
 }
 

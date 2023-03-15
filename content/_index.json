@@ -1,9 +1,4 @@
 {
-	"meta": {
-		"title": "Home",
-		"desc": "Fitlife is a theme for the Plentico static site generator",
-		"keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
-	},
 	"components": [
 		{
 		"name": "hero",
@@ -16,10 +11,7 @@
 				"title": "GET STARTED",
 				"url": "."
 			},
-			"background": {
-				"url": "media/hero-bg.png",
-				"alt": "Background"
-			},
+			"background": "media/hero-bg.png",
 			"images": 
 				{
 					"banner": {
@@ -290,5 +282,10 @@
 				}
 			}
 		}
-	]
+	],
+	"meta": {
+		"title": "Home",
+		"desc": "Fitlife is a theme for the Plentico static site generator",
+		"keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+	}
 }
