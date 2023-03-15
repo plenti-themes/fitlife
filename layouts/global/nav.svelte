@@ -149,6 +149,13 @@
   }
 
   .navbar-link:is(:hover, :focus, .active) { color: var(--rich-black-fogra-29-1); }
+ 
+  @media (min-width: 575px) {
+    .header .container {
+      max-width: unset;
+      padding-inline: 30px;
+    }
+  }
 
   @media (min-width: 992px) {
     .nav-open-btn,
@@ -210,5 +217,38 @@
     }
 
     .header.active .btn:is(:hover, :focus) { background-color: var(--rich-black-fogra-29-1); }
+  }
+
+  @media (min-width: 1200px) {
+    .header .container {
+      max-width: 1140px;
+      padding-inline: 0;
+    }
+  }
+
+  /*-----------------------------------*\
+    #BACK TO TOP
+  \*-----------------------------------*/
+
+  .back-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    background-color: var(--coquelicot);
+    color: var(--rich-black-fogra-29-1);
+    font-size: 20px;
+    padding: 11px;
+    border-radius: 50%;
+    border: 2px solid var(--rich-black-fogra-29-1);
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition-1);
+    z-index: 4;
+  }
+
+  .back-top-btn.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-10px);
   }
 </style>
