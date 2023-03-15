@@ -92,6 +92,7 @@
   }
 
   .about .coach-avatar {
+    margin: 0;
     overflow: hidden;
     border-radius: 50%;
   }
