@@ -1,5 +1,5 @@
 {
-	"build": "public",
+  "build": "public",
   "baseurl": "/fitlife/",
 	"local": {
 		"port": 3000

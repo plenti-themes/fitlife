@@ -1,6 +1,7 @@
 <script>
     export let title, subtitle, items;
 </script>
+
 <section class="section blog" id="blog" aria-label="blog">
     <div class="container">
 
@@ -14,7 +15,7 @@
           <div class="blog-card">
 
             <div class="card-banner img-holder" style="--width: 440; --height: 270;">
-              <img src="assets{item.image.url}" width="440" height="270" loading="lazy"
+              <img src="{item.image.url}" width="440" height="270" loading="lazy"
                 alt="{item.image.alt}" class="img-cover">
 
               <time class="card-meta" datetime="2022-07-07">{item.date}</time>

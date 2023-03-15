@@ -1,16 +1,17 @@
 <script>
     export let title, subtitle, body, coach, images, link;
 </script>
+
 <section class="section about" id="about" aria-label="about">
     <div class="container">
 
       <div class="about-banner has-after">
-        <img src="assets{images.banner.url}" width="660" height="648" loading="lazy" alt="{images.banner.alt}" class="w-100">
+        <img src="{images.banner.url}" width="660" height="648" loading="lazy" alt="{images.banner.alt}" class="w-100">
 
-        <img src="assets{images.circle1.url}" width="660" height="534" loading="lazy" aria-hidden="true" alt="{images.circle1.alt}" class="circle circle-1">
-        <img src="assets{images.circle2.url}" width="660" height="534" loading="lazy" aria-hidden="true" alt="{images.circle2.alt}" class="circle circle-2">
+        <img src="{images.circle1.url}" width="660" height="534" loading="lazy" aria-hidden="true" alt="{images.circle1.alt}" class="circle circle-1">
+        <img src="{images.circle2.url}" width="660" height="534" loading="lazy" aria-hidden="true" alt="{images.circle2.alt}" class="circle circle-2">
 
-        <img src="assets{images.fitness.url}" width="650" height="154" loading="lazy" alt="{images.fitness.alt}" class="abs-img w-100">
+        <img src="{images.fitness.url}" width="650" height="154" loading="lazy" alt="{images.fitness.alt}" class="abs-img w-100">
       </div>
 
       <div class="about-content">
@@ -28,7 +29,7 @@
           <div class="about-coach">
 
             <figure class="coach-avatar">
-              <img src="assets{images.coach.url}" width="65" height="65" loading="lazy" alt="{images.coach.alt}">
+              <img src="{images.coach.url}" width="65" height="65" loading="lazy" alt="{images.coach.alt}">
             </figure>
 
             <div>

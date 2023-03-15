@@ -16,29 +16,29 @@
 					"url": "."
 				},
 				"background": {
-					"url": "/hero-bg.png",
+					"url": "media/hero-bg.png",
 					"alt": "Background"
 				},
 				"images": 
 					{
 						"banner": {
-							"url": "/hero-banner.png",
+							"url": "media/hero-banner.png",
 							"alt": "Man lifting weights"
 						},
 						"circle1": {
-							"url": "/hero-circle-one.png",
+							"url": "media/hero-circle-one.png",
 							"alt": "circles 1"
 						},
 						"circle2": {
-							"url": "/hero-circle-two.png",
+							"url": "media/hero-circle-two.png",
 							"alt": "circles 2"
 							},
 						"heartrate": {
-							"url": "/heart-rate.svg",
+							"url": "media/heart-rate.svg",
 							"alt": "heart rate"
 						},
 						"calories": {
-							"url": "/calories.svg",
+							"url": "media/calories.svg",
 							"alt": "calories"
 						}
 					}
@@ -62,23 +62,23 @@
 				 	},
 				  "images": {
 					  "banner": {
-						"url": "/about-banner.png",
+						"url": "media/about-banner.png",
 						"alt": "Women exercising"
 						},
 					  "coach": {
-						"url": "/about-coach.jpg",
+						"url": "media/about-coach.jpg",
 						"alt": "Trainer"
 						},
 					  "circle1": {
-						"url": "/about-circle-one.png",
+						"url": "media/about-circle-one.png",
 						"alt": "circles 1"
 						},
 					  "circle2": {
-						"url": "/about-circle-two.png",
+						"url": "media/about-circle-two.png",
 						"alt": "circles 2"
 						},
 					  "fitness": {
-						"url": "/fitness.png",
+						"url": "media/fitness.png",
 						"alt": "fitness"
 						}
 					}
@@ -97,7 +97,7 @@
                         "icon2": "play-sharp"
                     },
                     "image": {
-					  "url": "/video-banner.jpg",
+					  "url": "media/video-banner.jpg",
 					  "alt": "Man lifting weights"
 				    },
                     "link": {
@@ -112,6 +112,7 @@
 				"fields": {
 					"title": "Fitness Classes For Every Goal",
                     "subtitle": "OUR CLASSES",
+					"background": "media/classes-bg.png",
 					"items": [
 						{   
 							"class": {
@@ -120,11 +121,11 @@
 							},
 							"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
                             "icon": {
-                                "url": "/class-icon-1.png",
+                                "url": "media/class-icon-1.png",
                                 "alt": "Weight Lifting"
                             },
 							"image": {
-								"url": "/class-1.jpg",
+								"url": "media/class-1.jpg",
 								"alt": "Weight Lifting"
 							},
                             "bars": {
@@ -140,11 +141,11 @@
 							},
 							"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
                             "icon": {
-                                "url": "/class-icon-2.png",
+                                "url": "media/class-icon-2.png",
                                 "alt": "Cardio & Strength"
                             },
 							"image": {
-								"url": "/class-2.jpg",
+								"url": "media/class-2.jpg",
 								"alt": "Cardio & Strength"
 							},
                             "bars": {
@@ -160,11 +161,11 @@
 							},
 							"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
                             "icon": {
-                                "url": "/class-icon-3.png",
+                                "url": "media/class-icon-3.png",
                                 "alt": "Power Yoga"
                             },
 							"image": {
-								"url": "/class-3.jpg",
+								"url": "media/class-3.jpg",
 								"alt": "Power Yoga"
 							},
                             "bars": {
@@ -180,11 +181,11 @@
 							},
 							"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
                             "icon": {
-                                "url": "/class-icon-4.png",
+                                "url": "media/class-icon-4.png",
                                 "alt": "The Fitness Pack"
                             },
 							"image": {
-								"url": "/class-4.jpg",
+								"url": "media/class-4.jpg",
 								"alt": "The Fitness Pack"
 							},
                             "bars": {
@@ -209,7 +210,7 @@
                                 "url": "."
                             },
                             "image": {
-                                "url": "/blog-1.jpg",
+                                "url": "media/blog-1.jpg",
                                 "alt": "Going to the gym for the first time"
                             },
                             "date": "7 JULY 2022",
@@ -225,7 +226,7 @@
                                 "url": "."
                             },
                             "image": {
-                                "url": "/blog-2.jpg",
+                                "url": "media/blog-2.jpg",
                                 "alt": "Going to the gym for the first time"
                             },
                             "date": "7 JULY 2022",
@@ -241,7 +242,7 @@
                                 "url": "."
                             },
                             "image": {
-                                "url": "/blog-3.jpg",
+                                "url": "media/blog-3.jpg",
                                 "alt": "Going to the gym for the first time"
                             },
                             "date": "7 JULY 2022",

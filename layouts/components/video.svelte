@@ -1,10 +1,11 @@
 <script>
     export let title, link, image;
 </script>
+
 <section class="section video" aria-label="video">
     <div class="container">
 
-      <div class="video-card has-before has-bg-image" style="background-image: url('assets{image.url}')">
+      <div class="video-card has-before has-bg-image" style="background-image: url('{image.url}')">
 
         <h2 class="h2 card-title">{title}</h2>
 
