@@ -66,7 +66,7 @@
     z-index: 4;
   }
 
-  :global(main) .header {
+  :global(nav ~ main) .header {
     top: 40px;
   }
 

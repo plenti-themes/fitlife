@@ -76,7 +76,9 @@
         justify-content: center;
         align-items: center;
         background-color: transparent;
-        border: 1px solid;
+        padding: 10px 40px;
+        border: 1px solid gainsboro;
+        border-radius: 5px;
         margin-bottom: 20px;
         width: 100%;
     }
