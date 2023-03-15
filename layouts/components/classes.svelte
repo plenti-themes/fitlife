@@ -62,6 +62,11 @@
 
   .class .section-title { color: var(--white); }
 
+  .class-list {
+    padding: 0;
+    padding-block-end: 30px;
+  }
+
   .class-card {
     background-color: var(--white);
     border-radius: var(--radius-10);
