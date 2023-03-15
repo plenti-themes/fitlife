@@ -24,7 +24,7 @@
                   <img src="{item.icon.url}" width="52" height="52" aria-hidden="true" alt="item.icon.alt" class="title-icon">
 
                   <h3 class="h3">
-                    <a href="{item.class.url}" class="card-title">{item.class.name}</a>
+                    <a href="{item.url}" class="card-title">{item.name}</a>
                   </h3>
                 </div>
 
@@ -37,11 +37,11 @@
                   <div class="progress-wrapper">
                     <p class="progress-label">{item.bars.label}</p>
 
-                    <span class="progress-value">{item.bars.percent}</span>
+                    <span class="progress-value">{item.bars.percent}%</span>
                   </div>
 
                   <div class="progress-bg">
-                    <div class="progress-bar" style="width: 85%"></div>
+                    <div class="progress-bar" style="width: {item.bars.percent}%"></div>
                   </div>
 
                 </div>

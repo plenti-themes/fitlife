@@ -108,83 +108,71 @@
 				"background": "media/classes-bg.png",
 				"items": [
 					{   
-						"class": {
-							"name": "Weight Lifting",
-							"url": "."
-						},
+						"name": "Weight Lifting",
+						"url": ".",
 						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
-						"icon": {
-							"url": "media/class-icon-1.png",
-							"alt": "Weight Lifting"
-						},
 						"image": {
 							"url": "media/class-1.jpg",
 							"alt": "Weight Lifting"
 						},
+						"icon": {
+							"url": "media/class-icon-1.png",
+							"alt": "Weight Lifting"
+						},
 						"bars": {
 							"label": "Class Full",
-							"percent": "85%",
-							"line": "Weights"
+							"percent": 85
 						}
 					},
 					{   
-						"class": {
-							"name": "Cardio & Strength",
-							"url": "."
-						},
+						"name": "Cardio & Strength",
+						"url": ".",
 						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
-						"icon": {
-							"url": "media/class-icon-2.png",
-							"alt": "Cardio & Strength"
-						},
 						"image": {
 							"url": "media/class-2.jpg",
 							"alt": "Cardio & Strength"
 						},
+						"icon": {
+							"url": "media/class-icon-2.png",
+							"alt": "Cardio & Strength"
+						},
 						"bars": {
 							"label": "Class Full",
-							"percent": "70%",
-							"line": "Cardio"
+							"percent": 70
 						}
 					},
 					{   
-						"class": {
-							"name": "Power Yoga",
-							"url": "."
-						},
+						"name": "Power Yoga",
+						"url": ".",
 						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
-						"icon": {
-							"url": "media/class-icon-3.png",
-							"alt": "Power Yoga"
-						},
 						"image": {
 							"url": "media/class-3.jpg",
 							"alt": "Power Yoga"
 						},
+						"icon": {
+							"url": "media/class-icon-3.png",
+							"alt": "Power Yoga"
+						},
 						"bars": {
 							"label": "Class Full",
-							"percent": "90%",
-							"line": "Yoga"
+							"percent": 90
 						}
 					},
 					{   
-						"class": {
-							"name": "The Fitness Pack",
-							"url": "."
-						},
+						"name": "The Fitness Pack",
+						"url": ".",
 						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
-						"icon": {
-							"url": "media/class-icon-4.png",
-							"alt": "The Fitness Pack"
-						},
 						"image": {
 							"url": "media/class-4.jpg",
 							"alt": "The Fitness Pack"
 						},
+						"icon": {
+							"url": "media/class-icon-4.png",
+							"alt": "The Fitness Pack"
+						},
 						"bars": {
 							"label": "Class Full",
-							"percent": "60%",
-							"line": "Fitness Pack"
+							"percent": 60
 						}
 					}
 				]
