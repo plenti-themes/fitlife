@@ -141,11 +141,11 @@ html {
 }
 
 body {
-  background-color: var(--white);
-  color: var(--sonic-silver);
   font-size: 1.6rem;
 }
 body main {
+  background-color: var(--white);
+  color: var(--sonic-silver);
   line-height: 1.6;
 }
 
