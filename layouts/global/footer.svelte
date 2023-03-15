@@ -188,6 +188,22 @@
 
   .footer .logo { color: var(--white); }
 
+  .logo {
+    color: var(--rich-black-fogra-29-1);
+    font-family: var(--ff-catamaran);
+    font-size: 3.5rem;
+    font-weight: var(--fw-900);
+    display: flex;
+    align-items: center;
+    margin-inline-start: -8px;
+  }
+
+  .logo ion-icon {
+    color: var(--coquelicot);
+    font-size: 40px;
+    transform: rotate(90deg) translate(-2px, -5px);
+  }
+
   .footer-brand-text { margin-block: 25px; }
 
   .footer-top .wrapper {
