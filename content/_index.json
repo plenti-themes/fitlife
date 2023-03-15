@@ -42,9 +42,8 @@
 			"name": "about",
 			"fields": {
 				"title": "Welcome To Our Fitness Gym",
-				"subtitle": "ABOUT US",
+				"subtitle": "About Us",
 				"body": "<p>Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat. Pellentesque porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.</p><p>Integer placerat vitae metus posuere tincidunt. Nullam suscipit ante ac aliquet viverra vestibulum ante ipsum primis.</p>",
-				"background": "",
 				"coach": {
 				"name": "Denis Robinson",
 				"title": "Our Coach"
@@ -104,7 +103,7 @@
 			"name": "classes",
 			"fields": {
 				"title": "Fitness Classes For Every Goal",
-				"subtitle": "OUR CLASSES",
+				"subtitle": "Our Classes",
 				"background": "media/classes-bg.png",
 				"items": [
 					{   
@@ -182,51 +181,45 @@
 			"name": "blog",
 			"fields": {
 				"title": "Latest Blog Feed",
-				"subtitle": "OUR NEWS",
+				"subtitle": "Our News",
 				"items": [
 					{
-						"blog": {
-							"title": "Going to the gym for the first time",
-							"body": "Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.",
-							"url": "."
-						},
+						"title": "Going to the gym for the first time",
+						"body": "Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.",
+						"url": ".",
 						"image": {
 							"url": "media/blog-1.jpg",
 							"alt": "Going to the gym for the first time"
 						},
-						"date": "7 JULY 2022",
+						"date": "July 3, 2023",
 						"link": {
 							"title": "Read More",
 							"url": "."
 						}
 					},
 					{
-						"blog": {
-							"title": "Parturient accumsan cacus pulvinar magna",
-							"body": "Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.",
-							"url": "."
-						},
+						"title": "Parturient accumsan cacus pulvinar magna",
+						"body": "Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.",
+						"url": ".",
 						"image": {
 							"url": "media/blog-2.jpg",
 							"alt": "Going to the gym for the first time"
 						},
-						"date": "7 JULY 2022",
+						"date": "July 5, 2023",
 						"link": {
 							"title": "Read More",
 							"url": "."
 						}
 					},
 					{
-						"blog": {
-							"title": "Risus purus namien parturient accumsan cacus",
-							"body": "Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.",
-							"url": "."
-						},
+						"title": "Risus purus namien parturient accumsan cacus",
+						"body": "Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.",
+						"url": ".",
 						"image": {
 							"url": "media/blog-3.jpg",
 							"alt": "Going to the gym for the first time"
 						},
-						"date": "7 JULY 2022",
+						"date": "July 7, 2023",
 						"link": {
 							"title": "Read More",
 							"url": "."

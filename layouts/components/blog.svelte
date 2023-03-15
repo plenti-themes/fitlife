@@ -24,11 +24,11 @@
           <div class="card-content">
 
             <h3 class="h3">
-              <a href="{item.blog.url}" class="card-title">{item.blog.title}</a>
+              <a href="{item.url}" class="card-title">{item.title}</a>
             </h3>
 
             <p class="card-text">
-              {item.blog.body}
+              {item.body}
             </p>
 
             <a href="{item.link.url}" class="btn-link has-before">{item.link.title}</a>
