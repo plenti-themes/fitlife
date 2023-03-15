@@ -1,1 +1,0 @@
-export let env={local:!1,baseurl:"/fitlife/",cms:{repo:"",redirectUrl:"",appId:"",branch:""}}
