@@ -5,7 +5,7 @@
   import Nav from "./nav.svelte";
   import Login from "./login.svelte";
 
-  export let content, layout, allContent, allLayouts, user, adminMenu;
+  export let content, layout, allContent, allLayouts, user;
   
   let hash;
   onMount(async () => {
@@ -17,7 +17,7 @@
   <Head title={content.fields?.meta?.title} />
   <body>
     {#if user && $user.isAuthenticated}
-      <svelte:component this={adminMenu} {user} bind:content={content} />
+      <svelte:component this={$user.menu} {user} bind:content={content} />
     {/if}
     <Login bind:hash {user} />
     <main>
