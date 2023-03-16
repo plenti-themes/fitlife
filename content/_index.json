@@ -1,41 +1,35 @@
 {
 	"components": [
 		{
-		"name": "hero",
-		"fields": {
-			"subtitleA": "The Best",
-			"subtitleB": "Fitness Club",
-			"title": "Work hard for a better life",
-			"body": "Duis mollis felis quis libero dictum vehicula. Duis dictum lorem mi, a faucibus nisi eleifend eu.",
-			"link": {
-				"title": "GET STARTED",
-				"url": "."
-			},
-			"background": "media/hero-bg.png",
-			"images": 
-				{
-					"banner": {
-						"url": "media/hero-banner.png",
-						"alt": "Man lifting weights"
-					},
-					"circle1": {
-						"url": "media/hero-circle-one.png",
-						"alt": "circles 1"
-					},
-					"circle2": {
-						"url": "media/hero-circle-two.png",
-						"alt": "circles 2"
-						},
-					"heartrate": {
-						"url": "media/heart-rate.svg",
-						"alt": "heart rate"
-					},
-					"calories": {
-						"url": "media/calories.svg",
-						"alt": "calories"
-					}
-				}
-			
+			"name": "hero",
+			"fields": {
+				"title": "Work hard for a better life",
+				"tabs": [
+					"The Best",
+					"Fitness Club"
+				],
+				"body": "Duis mollis felis quis libero dictum vehicula. Duis dictum lorem mi, a faucibus nisi eleifend eu.",
+				"link": {
+					"title": "GET STARTED",
+					"url": "."
+				},
+				"image": {
+					"url": "media/hero-banner.png",
+					"alt": "Man lifting weights"
+				},
+				"circles": [
+					"media/hero-circle-one.png",
+					"media/hero-circle-two.png"
+				],
+				"heartrate": {
+					"url": "media/heart-rate.svg",
+					"alt": "Heart Rate 100 bpm"
+				},
+				"calories": {
+					"url": "media/calories.svg",
+					"alt": "Calories Burned 100 bpm"
+				},
+				"background": "media/hero-bg.png"
 			}
 		},
 		{
@@ -58,23 +52,23 @@
 				},
 				"images": {
 					"banner": {
-					"url": "media/about-banner.png",
-					"alt": "Women exercising"
+						"url": "media/about-banner.png",
+						"alt": "Women exercising"
 					},
 					"circle1": {
-					"url": "media/about-circle-one.png",
-					"alt": "circles 1"
+						"url": "media/about-circle-one.png",
+						"alt": "circles 1"
 					},
 					"circle2": {
-					"url": "media/about-circle-two.png",
-					"alt": "circles 2"
+						"url": "media/about-circle-two.png",
+						"alt": "circles 2"
 					},
 					"fitness": {
-					"url": "media/fitness.png",
-					"alt": "fitness"
+						"url": "media/fitness.png",
+						"alt": "fitness"
 					}
 				}
-			} 
+			}
 		},
 		{
 			"name": "video",
@@ -91,7 +85,6 @@
 					"title": "Watch More",
 					"url": "."
 				}
-				
 			}
 		},
 		{
@@ -101,7 +94,7 @@
 				"subtitle": "Our Classes",
 				"background": "media/classes-bg.png",
 				"items": [
-					{   
+					{
 						"name": "Weight Lifting",
 						"url": ".",
 						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
@@ -118,7 +111,7 @@
 							"percent": 85
 						}
 					},
-					{   
+					{
 						"name": "Cardio & Strength",
 						"url": ".",
 						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
@@ -135,7 +128,7 @@
 							"percent": 70
 						}
 					},
-					{   
+					{
 						"name": "Power Yoga",
 						"url": ".",
 						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
@@ -152,7 +145,7 @@
 							"percent": 90
 						}
 					},
-					{   
+					{
 						"name": "The Fitness Pack",
 						"url": ".",
 						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
@@ -230,17 +223,17 @@
 				"line2": "get in touch.",
 				"line3": "Get in Touch",
 				"body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?",
-				"name":{
+				"name": {
 					"heading": "Name",
 					"name": "Prakash Shahi",
 					"icon": "fas fa-user"
 				},
-				"address":{
+				"address": {
 					"heading": "Address",
 					"location": "Surkhet, Nepal",
 					"icon": "fas fa-map-marker-alt"
 				},
-				"email":{
+				"email": {
 					"heading": "Email",
 					"address": "abc@gmail.com",
 					"icon": "fas fa-envelope"

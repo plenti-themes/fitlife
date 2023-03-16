@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitleA, subtitleB, body, link, images, background;
+    export let title, tabs, body, link, image, circles, heartrate, calories, background;
 </script>
 
 <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section="" style="background-image: url('{background}')">
@@ -8,8 +8,13 @@
     <div class="hero-content">
 
       <p class="hero-subtitle">
-        <strong class="strong">{subtitleA}</strong>
-        {subtitleB}
+        {#each tabs as tab, i}
+          {#if i === 0}
+            <strong class="strong">{tab}</strong>
+          {:else}
+            {tab}
+          {/if}
+        {/each}
       </p>
 
       <h1 class="h1 hero-title">{title}</h1>
@@ -24,13 +29,14 @@
 
     <div class="hero-banner">
 
-      <img src="{images.banner.url}" width="660" height="753" alt="{images.banner.alt}" class="w-100">
+      <img src="{image.url}" width="660" height="753" alt="{image.alt}" class="w-100">
 
-      <img src="{images.circle1.url}" width="666" height="666" aria-hidden="true" alt="{images.circle1.alt}" class="circle circle-1">
-      <img src="{images.circle2.url}" width="666" height="666" aria-hidden="true" alt="{images.circle2.alt}" class="circle circle-2">
+      {#each circles as circle}
+        <img src="{circle}" alt="" width="666" height="666" aria-hidden="true" class="circle circle-1">
+      {/each}
 
-      <img src="{images.heartrate.url}" width="255" height="270" alt="{images.heartrate.alt}" class="abs-img abs-img-1">
-      <img src="{images.calories.url}" width="348" height="224" alt="{images.calories.alt}" class="abs-img abs-img-2">
+      <img src="{heartrate.url}" width="255" height="270" alt="{heartrate.alt}" class="abs-img abs-img-1">
+      <img src="{calories.url}" width="348" height="224" alt="{calories.alt}" class="abs-img abs-img-2">
 
     </div>
   </div>
