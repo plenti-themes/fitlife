@@ -1,5 +1,8 @@
 {
   "build": "public",
+  "routes": {
+	"pages": ":filename"
+  },
   "baseurl": "/fitlife/",
 	"local": {
 		"port": 3000

@@ -1,0 +1,12 @@
+{
+    "components": {
+        "type": "component",
+        "options": [
+            "about",
+            "blog",
+            "classes",
+            "hero",
+            "video"
+        ]
+    }
+}
