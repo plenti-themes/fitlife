@@ -1,1 +1,1 @@
-const allDefaults=[];export default allDefaults
+const allDefaults=[{pager:null,type:"pages",path:"defaults",filepath:"content/pages/_defaults.json",filename:"_defaults.json",fields:{components:[],meta:{title:"New Page",desc:"Meta Description",keywords:"Plenti, Svelte, Go, SSG, JAMstack, Themes"}}}];export default allDefaults
