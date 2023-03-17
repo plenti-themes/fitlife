@@ -85,7 +85,6 @@
 			"fields": {
 				"title": "Fitness Classes For Every Goal",
 				"subtitle": "Our Classes",
-				"background": "media/classes-bg.png",
 				"items": [
 					{
 						"name": "Weight Lifting",
@@ -155,7 +154,8 @@
 							"percent": 60
 						}
 					}
-				]
+				],
+				"background": "media/classes-bg.png"
 			}
 		},
 		{
