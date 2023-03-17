@@ -75,6 +75,14 @@
     animation: moveUp 2.5s ease infinite;
   }
 
+  .about-content :global(ul li) {
+    list-style: circle;
+  }
+
+  .about-content :global(ol li) {
+    list-style: decimal;
+  }
+
   @keyframes moveUp {
     0%,
     30%,
