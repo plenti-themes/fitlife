@@ -1,0 +1,8 @@
+{
+    "name": "Jim Fisk",
+    "title": "cardio",
+    "image": {
+        "src": "media/jim.jpg",
+        "alt": "Jim's profile"
+    }
+}

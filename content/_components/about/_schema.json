@@ -18,5 +18,17 @@
             "heading3",
             "clear"
         ]
+    },
+    "fields.coach": {
+        "type": "reference",
+        "options": [
+            {
+                "type": "coaches",
+                "search": [
+                    "name"
+                ],
+                "result": "fields.name"
+            }
+        ]
     }
 }

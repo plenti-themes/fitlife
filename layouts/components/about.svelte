@@ -1,5 +1,7 @@
 <script>
-    export let title, subtitle, body, coach, images, link;
+    export let title, subtitle, body, coach, images, link, allContent;
+
+    $: selectedCoach = allContent.find(content => content.type === "coaches" && content.fields.name === coach);
 </script>
 
 <section class="section about" id="about" aria-label="about">
@@ -28,18 +30,18 @@
 
           <figure class="coach-avatar">
             <img 
-              src="{coach.image.src}"
+              src="{selectedCoach?.fields.image.src}"
               width="65"
               height="65"
               loading="lazy"
-              alt="{coach.image.alt}"
+              alt="{selectedCoach?.fields.image.alt}"
             >
           </figure>
 
           <div>
-            <h3 class="h3 coach-name">{coach.name}</h3>
+            <h3 class="h3 coach-name">{selectedCoach?.fields.name}</h3>
 
-            <p class="coach-title">{coach.title}</p>
+            <p class="coach-title">{selectedCoach?.fields.title}</p>
           </div>
 
         </div>
